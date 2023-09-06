@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(218, 221, 32);
+}
+
+h1, p{
+    color: purple;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidenav a{
+    position: absolute;
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+    border-right: 1em solid black 
+}
+
+.sidenav .white-section {
+    background-color: black; /* Background color for the second section (5cm) */
+    width: 5px;
+}
+
+#first{
+    top: 40px;
+    
+}
+
+#second{
+    top: 90px;
+ 
+}
+
+#third{
+    top: 140px;
+}
+
+#fourth{
+    top: 190px;
+}

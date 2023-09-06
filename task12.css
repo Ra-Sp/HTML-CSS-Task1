@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(162,43,85,255);
+}
+
+table{
+    background-color: rgba(117,32,63,255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 3%;
+}
+
+td{
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.entry{
+    text-align: left;
+    width: 70%;
+    height: 75%;
+}
+
+input{
+    width: 75%;
+    height: 25px;
+}
+
+select{
+    width: 30%;
+    height: 30px;
+    text-align: center;
+}
+
+.radio-group {
+    display: flex;
+}
+
+.radio-group input[type="radio"]{
+    width: 3%;
+}
+
+.radio-group label{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+textarea{
+    height: 50px;
+    width: 75%;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 50%;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 8px;
+}

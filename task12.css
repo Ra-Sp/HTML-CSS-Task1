@@ -1,5 +1,7 @@
-body{
+form{
     background-color: rgba(162,43,85,255);
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 table{
